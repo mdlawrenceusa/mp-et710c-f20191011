@@ -33,7 +33,46 @@ app.controller('MainController', ['$scope', function($scope) {
     	cover: 'http://upload.wikimedia.org/wikipedia/en/a/a4/Ready_Player_One_cover.jpg',
     	likes: 0,
     	dislikes: 0
-  	}
+  	},
+
+    {
+      name: 'Overstock deals',
+      price: 7.99,
+      pubdate: new Date('2011', '08', '16'),
+      cover: 'https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_OD_T_260x260_B07L1354VW._SY260_CB450553798_.jpg',
+      likes: 0,
+      dislikes: 0
+    },
+
+    {
+      name: 'Find unique gifts',
+      price: 7.99,
+      pubdate: new Date('2011', '08', '16'),
+      cover: 'https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2019/img/Social_Shopping/B07MNNZ9XW-260._SY260_CB452654247_.jpg',
+      likes: 0,
+      dislikes: 0
+    },
+
+    {
+      name: 'Techies universe',
+      price: 7.99,
+      pubdate: new Date('2011', '08', '16'),
+      cover: 'https://images-na.ssl-images-amazon.com/images/G/01/watchandshop/2019/GW/10/02/desktop-tech-1x._SY260_CB451011607_.jpg',
+      likes: 0,
+      dislikes: 0
+    },
+
+    {
+      name: 'Overstock deals',
+      price: 7.99,
+      pubdate: new Date('2011', '08', '16'),
+      cover: 'https://images-na.ssl-images-amazon.com/images/G/01/AmazonServices/Site/US/Product/FBA/Outlet/Merchandising/Outlet_GW_OD_T_260x260_B07L1354VW._SY260_CB450553798_.jpg',
+      likes: 0,
+      dislikes: 0
+    }
+
+
+
   ];
   $scope.plusOne = function(index) {
   	$scope.products[index].likes += 1;
